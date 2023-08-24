@@ -544,7 +544,7 @@ if (
 ):
 	_crawler = Crawler()
 	openai.api_key ="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"
-)
+
 	def print_help():
 		print(
 			"(g) to visit url\n(u) scroll up\n(d) scroll down\n(c) to click\n(t) to type\n" +
