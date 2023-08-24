@@ -543,8 +543,7 @@ if (
 	__name__ == "__main__"
 ):
 	_crawler = Crawler()
-	openai.api_key = os.environ.get(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)
-
+	openai.api_key = os.environ.get("OPENAI_API_KEY", "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")
 	def print_help():
 		print(
 			"(g) to visit url\n(u) scroll up\n(d) scroll down\n(c) to click\n(t) to type\n" +
