@@ -172,7 +172,7 @@ class Crawler:
 
 		self.page = self.browser.new_page()
 		self.page.set_viewport_size({"width": 1280, "height": 1080})
-		self.go_to_page(start_page)
+	
 
 	def go_to_page(self, url):
 		self.page.goto(url=url if "://" in url else "http://" + url)
