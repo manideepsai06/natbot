@@ -4,12 +4,12 @@
 #
 # Set OPENAI_API_KEY to your API key, and then run this from a terminal.
 #
-
+import os
 from playwright.sync_api import sync_playwright
 import time
 from sys import argv, exit, platform
 import openai
-import os
+
 
 quiet = False
 if len(argv) >= 2:
