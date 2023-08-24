@@ -166,7 +166,7 @@ class Crawler:
 			sync_playwright()
 			.start()
 			.chromium.launch(
-				headless=False,
+				headless=True,
 			)
 		)
 
